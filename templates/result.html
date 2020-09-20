@@ -1,0 +1,103 @@
+{% extends 'base.html' %} {% block body %}
+<style>
+  body {
+    background: url("https://source.unsplash.com/1920x1080/?dark") no-repeat
+      center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+</style>
+<div class="container">
+  <div class="card border-0 shadow my-5">
+    <div class="card-body p-5">
+      <h1 class="font-weight-dark">Some scrapped images of {{query}}</h1></br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}5.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}6.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}7.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}8.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+              src="/static/{{query}}9.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <p class="lead mb-0">Thankyou for using Image Scraper!</p>
+    </div>
+  </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block body %}
+<style>
+body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+</style>
+<div class="container">
+  <div class="card border-0 shadow my-5">
+    <div class="card-body p-5">
+      <h1 class="font-weight-dark">Scrapped Images From Web</h1>
+      <p class="lead">web scraping," is the process of extracting large amounts of information from a website. This may involve downloading several web pages or the entire site. The downloaded content may include just the text from the pages, the full HTML, or both the HTML and images from each page.</p>
+        <form action="/result" method="POST">
+        <div class="col-md-12 text-center">
+            <input style="width:250px" type="text" name="content" id="content" placeholder="ex: apple"></br></br>
+        <div>
+            <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+      
+<div style="height: 155px"></div>
+      <p class="lead mb-0">Thankyou for using Image Scraper!</p>
+    </div>
+  </div>
+</div>
+{% endblock body %}
