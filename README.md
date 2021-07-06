@@ -1,4 +1,4 @@
-# image-scraper-with-deployment
+# Google image scraper
 
 web scraping," is the process of extracting large amounts of information from a website. This may involve downloading several web pages or the entire site. The downloaded content may include just the text from the pages, the full HTML, or both the HTML and images from each page.
 
